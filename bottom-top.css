@@ -42,6 +42,6 @@
 
 @media screen and (max-width: 500px) {
 	#return-to-top {
-		bottom: 110px;
+		bottom: 50px; width: 40px; height: 40px;
 	}
 }
