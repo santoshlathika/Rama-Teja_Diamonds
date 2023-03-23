@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+html{scroll-behavior:smooth;}
+
+a{text-decoration:none;color:#000}
+
+/* HEADER OPEN */
+
+.top_bar{background:#55092f;padding:10px 0;color:#fff;font-size:20px;}
+.top_bar b{color:#f3cd00;}
+.top_bar i{background:#f3cd00;padding:8px; border-radius:50%; margin:0 5px;color:#0943bc;}
+.top_bar i:hover{background:#fff;color:#72234a;}
+.top_bar>ul>li:last-child>ul>li:first-child i{padding:8px;}
+
+.menu{padding:10px 0;background:#ececec;border-bottom: 12px solid white;}
+.menu>ul>li:nth-child(2)>ul>li{background:#1a2f5b;margin:2px;width:130px;text-align:center;padding:7px 0;border-radius:4px;}
+.menu>ul>li:nth-child(2)>ul>li:hover{background:#5c1a3a;}
+.menu a{color:#fff;}
+.menu a:hover{color:#fbd400;}
+[alt="Logo"]{width:300px;}
+[alt="Major_Abhi"]{width:100px;border-radius:10px;}
+@media screen and (max-width:600px){
+  .top_bar{font-size:16px;}
+  .top_bar>ul>li:first-child{text-align:center;}
+ .top_bar>ul>li:first-child>ul{flex-direction:column;} 
+  .top_bar>ul>li:first-child>ul>li:first-child{margin-bottom:10px;}
+  .top_bar>ul>li:first-child>ul>li:last-child{margin-bottom:10px;}
+  .menu{padding-bottom:7px;}
+  .menu>ul{justify-content:center;align-items:center;}
+  .menu>ul>li{margin:10px 0;}
+  [alt="Major_Abhi"]{display:none;}
+}
+
+/* HEADER CLOSE */
+
+
+/* ABHI IDENTITY OPEN*/
+
+.identity{background:#e7a61a;color:#000;font-weight:bolder;padding-bottom:50px;width:60%;margin:30px auto;text-align:center;border-radius:10px 10px 0 0;font-size:20px;display:none;}
+[alt="Abhi_image"]{width:100px;border-radius:50%;margin-top:-40px;border:3px solid #ebeae8;}
+.identity>ul>li:nth-child(2){margin-top:10px;}
+.identity>ul>li:last-child{padding:5px 0;font-size:13px;color:red;background:white;width:150px;border-radius:4px;margin:30px auto 0 auto;}
+
+@media screen and (max-width:450px){
+  .identity{display:inherit;} 
+}
+
+/* ABHI IDENTITY CLOSE*/
+
+
+
+.heading_Stones h1{background:#1a2f5b;width:20vw;padding:10px 0;margin:80px auto 80px auto;text-align:center;color:white;}
+.box_stones{display:flex;justify-content:space-around;flex-wrap:wrap;}
+.box_stones>li{margin:0 0 25px 0;-webkit-box-shadow: 9px 9px 6px -4px rgba(199,199,199,1);
+-moz-box-shadow: 9px 9px 6px -4px rgba(199,199,199,1);
+box-shadow: 9px 9px 6px -4px rgba(199,199,199,1);
+}
+.box_stones img{width:300px;border:2px solid #FFF;height:238px;
+margin-bottom:10px;display:block;transition:1s;margin-left:auto;margin-right:auto}
+.box_stones img:hover{transform:scale(1.3);
+z-index:2;}
+.box_stones>li>ul{width:330px; background:#e9e7e7;padding:10px 0;}
+
+.box_stones>li>ul>li:nth-child(2){font-size:22px;line-height:1.3em;color:#1a2f5b;}
+.box_stones>li>ul>li:last-child{font-size:12px;color:red;line-height:2em;}
+.box_stones>li>ul>li{text-align:center;}
+
+@media screen and (max-width:600px){
+  .heading_Stones h1{width:50vw;}
+}
+
+/* Google Map */
+
+.google_map{margin:80px 0;}
+
+
+/* FOOTER */
+footer{
+  background:#1a2f5b;font-size:15px;
+}
+footer>ul>li:first-child{border-bottom:0.1px dotted white;color:white;}
+footer>ul>li:first-child>ul>li{width:300px; background:transparent;padding:40px 0;}
+footer>ul>li:last-child{color:white;padding:10px 0;}
+.Column_1>ul>li{text-align:center;}
+.Column_1>ul>li:first-child img{width:150px; border-radius:50%;margin-bottom:20px;}
+.Column_1>ul>li:last-child img{width:200px; }
+.Column_2>ul>li:last-child i{background:#FFF;padding:8px;margin:3px 3px 3px 9px;color:#000;font-size:18px;border-radius:4px;}
+.Column_2>ul>li:last-child i:hover{background:#72234a;color:#ffd700;}
+.Column_2 a{color:white;}
+.Column_2 h3{margin-bottom:2em;}
+.Column_2 i{margin:0 20px 30px 10px;}
+.Column_2>ul>li:nth-child(2){margin-bottom:10px;}
+.Column_3 h3{margin-bottom:2em;}
+.Column_3>ul{width:130px;margin:0 auto;}
+.Column_3>ul>li:last-child>ul>li{list-style:initial;margin-bottom:18px;}
+.Column_3 a{color:#FFF;}
+.Column_3 a:hover{color:#ffd700;}
+.Column_4 h3{margin-bottom:1.8em;}
+.Column_4>ul>li:last-child{width:260px;text-align:justify;line-height:1.5em;}
+
+@media screen and (max-width:600px){
+  .Column_3>ul{width:250px;margin:0 auto;}
+}
+
+
