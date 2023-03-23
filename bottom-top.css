@@ -23,9 +23,9 @@
     color: #fff;
     margin: 0;
     position: relative;
-    left: 20px;
-    top: 9px;
-    font-size: 19px;
+    left: 22px;
+    top: 16px;
+    font-size: 24px;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -40,4 +40,8 @@
   
 }
 
-
+@media screen and (max-width: 500px) {
+	#return-to-top {
+		bottom: 110px;
+	}
+}
