@@ -45,6 +45,11 @@
 		width: 45px;
         height: 45px;
         bottom: 80px;
+		right:10px;
        
+	}
+	#return-to-top i {
+	left: 0px;
+    top: 0px;	
 	}
 }
