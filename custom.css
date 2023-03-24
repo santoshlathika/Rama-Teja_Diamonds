@@ -24,7 +24,7 @@ a{text-decoration:none;color:#000}
   .top_bar>ul>li:first-child{text-align:center;}
  .top_bar>ul>li:first-child>ul{flex-direction:column;} 
   .top_bar>ul>li:first-child>ul>li:first-child{margin-bottom:10px;}
-  .top_bar>ul>li:first-child>ul>li:last-child{margin-bottom:10px;}
+  .top_bar>ul>li:first-child>ul>li:last-child{margin-bottom:10px;font-size: 15px;}
   .menu{padding-bottom:7px;}
   .menu>ul{justify-content:center;align-items:center;}
   .menu>ul>li{margin:10px 0;}
