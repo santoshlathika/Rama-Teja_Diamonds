@@ -49,7 +49,7 @@
        
 	}
 	#return-to-top i {
-	bottom: 1px;
-        right: 1px;
+	left:0.65em;
+	top:10px;
 	}
 }
